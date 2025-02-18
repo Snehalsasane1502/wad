@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahiket's Dance Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .dance-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sahiket's Dance Studio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dances">Dance Forms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5" id="home">
+        <h1>Welcome to Sahiket's Dance Studio</h1>
+        <p>Explore various dance forms and unleash your inner dancer!</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="dance.jpg" class="img-fluid rounded" alt="Dance Studio">
+            </div>
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>At Sahiket's Dance Studio, we offer a variety of dance forms to help you express yourself. From classical to contemporary, we have it all!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dance Forms Section -->
+    <section id="dances" class="container my-5">
+        <h2 class="text-center mb-4">Our Dance Forms</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card dance-card">
+                    <img src="ballet.jpg" class="card-img-top" alt="Ballet">
+                    <div class="card-body">
+                        <h5 class="card-title">Ballet</h5>
+                        <p class="card-text">A graceful and classical dance form that tells a story through movement.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card dance-card">
+                    <img src="hiphop.jpg" class="card-img-top" alt="Hip Hop">
+                    <div class="card-body">
+                        <h5 class="card-title">Hip Hop</h5>
+                        <p class="card-text">A high-energy dance style that incorporates freestyle movements.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card dance-card">
+                    <img src="classical.jpg" class="card-img-top" alt="Salsa">
+                    <div class="card-body">
+                        <h5 class="card-title">Salsa</h5>
+                        <p class="card-text">A lively and rhythmic partner dance originating from Latin America.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <p class="text-center">Join us and start dancing today!</p>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Sahiket's Dance Studio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
